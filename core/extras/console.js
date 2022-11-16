@@ -118,7 +118,7 @@ function dir(data) {
             if (
                 !Object.keys(data).length
                 && typeof data.toString == 'function'
-                && data.constructor.name
+                && data.constructor.name            
                 && data.constructor.name !== 'Object'
                 && !Array.isArray(data)
             ) {
